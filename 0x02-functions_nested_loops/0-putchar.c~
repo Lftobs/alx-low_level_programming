@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * main - Entry
+ * Return: 0
+ */
+int main(void)
+{
+	p_utchar('_');
+	p_utchar('p');
+	p_utchar('u');
+	p_utchar('t');
+	p_utchar('c');
+	p_utchar('h');
+	p_utchar('a');
+	p_utchar('r');
+	p_utchar('\n');
+	return (0);
+}
