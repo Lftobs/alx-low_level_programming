@@ -1,36 +1,36 @@
 #include "main.h"
 /**
  * print_times_table - Entry
- * @n: IFC.
+ * @n: IFC
  */
 void print_times_table(int n)
 {
-	int num, result, no;
+	int num, i, j;
 
 	if (n >= 0 && n <= 15)
 	{
 		for (num = 0; num <= n; num++)
 		{
 			_putchar('0');
-			for (no =1; no <= n; no++)
+			for (i = 1; i <= n; i++)
 			{
 				_putchar(',');
 				_putchar(' ');
-				result = no * num;
-				if (result <= 99)
+				prod = num * i;
+				if (j <= 99)
 					_putchar(' ');
-				if (result <= 9)
+				if (j <= 9)
 					_putchar(' ');
-				if (result >= 100)
+				if (j >= 100)
 				{
-					_putchar((result / 100) + '0');
-					_putchar((result / 10) % 10 + '0');
+					_putchar((j / 100) + '0');
+					_putchar((j / 10) % 10 + '0');
 				}
-				else if (result <= 99 && result >= 10)
+				else if (j <= 99 && j >= 10)
 				{
-				  _putchar((result / 10) + '0');
+					_putchar((j / 10) + '0');
 				}
-				_putchar((result % 10) + '0');
+				_putchar((j % 10) + '0');
 			}
 			_putchar('\n');
 		}
