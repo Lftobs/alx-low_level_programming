@@ -1,4 +1,4 @@
-#include "main.h"
+ē#include "main.h"
 /**
  * _isupper - Entry
  * @c: IFC
@@ -6,7 +6,7 @@
  */
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'z')
+	if (c >= 'A' && c <= 'Z')
 		return (1);
 	else
 		return (0);
