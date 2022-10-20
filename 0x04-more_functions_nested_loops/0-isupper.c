@@ -1,4 +1,4 @@
-ē#include "main.h"
+#include "main.h"
 /**
  * _isupper - Entry
  * @c: IFC
