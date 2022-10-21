@@ -1,21 +1,21 @@
 #include "main.h"
 /**
- * print_jber -Entry
- * @n: IFC
- *Return: 0
+ * print_number - Entry8
+ * @n:.IFC
+ * Return: 0
  */
-void print_jber(int n)
+void print_number(int n)
 {
-	unsigned int j = n;
+	unsigned int i = n;
 
 	if (n < 0)
 	{
-		_putchar('-');
-		j = -j;
+		_putchar(45);
+		i = -i;
 	}
-
-	if ((j / 10) > 0)
-		print_jber(j / 10);
-
-	_putchar((j % 10) + '0');
+	if (i / 10)
+	{
+		print_number(i / 10);
+	}
+	_putchar(i % 10 + '0');
 }
