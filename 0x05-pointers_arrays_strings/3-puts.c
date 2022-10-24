@@ -14,7 +14,7 @@ void _puts(char *str)
 			_putchar('\n');
 			break;
 		}
-		_putchar('\n');
+		_putchar(str[i]);
 		i++;
 	}
 }
