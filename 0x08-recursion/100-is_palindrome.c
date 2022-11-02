@@ -6,7 +6,7 @@ int rev_palindrome(char *s, int len);
 
 /**
  *_strlen_recursion - Entry
- * @s: Ifc
+ * @s: IFC
  * Return: 0
  */
 int _strlen_recursion(char *s)
