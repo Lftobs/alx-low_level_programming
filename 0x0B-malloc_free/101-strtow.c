@@ -56,7 +56,7 @@ char **strtow(char *str)
 
 
 /**
- * word_len - Entry
+ * ws_len - Entry
  * @str: string
  * Return: 0
  */
