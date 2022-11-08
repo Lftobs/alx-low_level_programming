@@ -4,7 +4,6 @@
  * create_array - Entry(creates an array of chars)
  * @size: size of the array
  * @c: ifc
- *
  * Return: 0
  */
 char *create_array(unsigned int size, char c)
@@ -19,8 +18,9 @@ char *create_array(unsigned int size, char c)
 
 	if (a == NULL)
 		return (NULL);
-	for (i = 0; i < size; i++)
+	do {
 		a[i] = c;
-
-		return (a);
+		i++;
+	} while (i < size);
+	return (a);
 }
