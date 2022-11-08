@@ -42,10 +42,10 @@ char *argstostr(int ac, char **av)
 			l++;
 			j = 0;
 		}
-		if (l < c - 1)
-			a[ia] = av[i][j];
+		if (l < k - 1)
+			a[l] = av[i][j];
 	}
-	a[ia] = '\0';
+	a[l] = '\0';
 
 	return (a);
 }
