@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * string_nresult - Entry (function that resultenates two strings)
+ * string_nconcat - Entry (function that resultenates two strings)
  * @s1: string1
  * @s2: string2
  * @n: max no of bytes
  * Return: 0
  */
-char *string_nresult(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i, j = n;
 	char *result;
