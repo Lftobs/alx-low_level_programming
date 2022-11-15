@@ -3,9 +3,9 @@
 
 /**
  * new_dog - Entry
- * @name: name 
- * @age: age 
- * @owner: owner 
+ * @name: name
+ * @age: age
+ * @owner: owner
  * Return: 0
  */
 dog_t *new_dog(char *name, float age, char *owner)
