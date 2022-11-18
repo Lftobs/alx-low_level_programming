@@ -3,11 +3,11 @@
 #include <stdarg.h>
 
 /**
- * print_strings: __
- * @separator: __
- * @n: __
- * @...: __
- * Description: __
+ * print_strings - abjk
+ * @separator: __seperator
+ * @n: __n
+ * @...: __ifc
+ * Description: __yyui
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
