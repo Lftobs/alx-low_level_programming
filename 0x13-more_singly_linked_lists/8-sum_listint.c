@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * sum_listint - func that calculates the sum of all the data in a listint_t list
+ * sum_listint - func that calculates the sum of
+ * all the data in a listint_t list
  * @head: first node in the list
  * Return:  sum
  */
